@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="softBlush" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#fffcfb"/>
+      <stop offset="60%" stop-color="#f8e8e6"/>
+      <stop offset="100%" stop-color="#eed5d2"/>
+    </radialGradient>
+    <linearGradient id="pastelRose" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d49a9c"/>
+      <stop offset="55%" stop-color="#b4787b"/>
+      <stop offset="100%" stop-color="#8b5a5d"/>
+    </linearGradient>
+    <linearGradient id="softGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e3c8b2"/>
+      <stop offset="100%" stop-color="#bf9a7c"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="98" fill="url(#softBlush)"/>
+  <circle cx="100" cy="100" r="91" fill="none" stroke="url(#softGold)" stroke-width="1.8"/>
+  <circle cx="100" cy="100" r="84" fill="none" stroke="#d49a9c" stroke-opacity="0.35" stroke-width="0.9"/>
+  <!-- Elegant calligraphic A monogram -->
+  <path d="M 62 138 L 100 54 L 138 138" fill="none" stroke="url(#pastelRose)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 74 114 C 92 106, 110 106, 128 114" fill="none" stroke="url(#pastelRose)" stroke-width="3.2" stroke-linecap="round"/>
+  <!-- Delicate pastel botanical leaf / sparkle -->
+  <path d="M 100 38 L 102.5 44 L 108.5 46.5 L 102.5 49 L 100 55 L 97.5 49 L 91.5 46.5 L 97.5 44 Z" fill="url(#softGold)"/>
+</svg>
